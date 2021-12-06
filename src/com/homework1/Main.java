@@ -1,14 +1,21 @@
+package com.homework1;
+
 public class Main {
 
     public static void main(String[] args) {
 	Exercise1 a = new Exercise1();
-    a.DisplaySum();
+    a.displaySum();
 
     Exercise2 b = new Exercise2();
-    b.DisplayFollOperation();
+    b.displayFollOperation();
 
     Exercise3 c = new Exercise3();
-    c.operation();
+    c.inputValue();
+    c.printSum();
+    c.printDeduct();
+    c.printMultiply();
+    c.printDivide();
+    c.printMod();
 
     Exercise4 d = new Exercise4();
     d.sumArr();
