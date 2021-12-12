@@ -1,0 +1,15 @@
+5.	The following code creates one array and one string object. How many references to those objects exist after the code executes? Is either object eligible for garbage collection?
+...
+String[] students = new String[10];
+String studentName = "Peter Parker";
+students[0] = studentName;
+studentName = null;
+...
+
+There is one reference to the students array and that array has one reference to the "Peter Parker" string.
+These objects are not eligible for garbage collection.
+
+6.	How does a program destroy an object that it creates?
+
+The program does not destroy objects. The garbage collector is used instead.
+The main purpose of garbage collection is to free heap memory by destroying objects that do not contain a reference.
