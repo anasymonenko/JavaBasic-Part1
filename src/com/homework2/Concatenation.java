@@ -26,6 +26,6 @@ public class Concatenation {
         System.out.println("The concatenated string with replacements: " + concatString);
         */
 
-        System.out.println("The concatenated string with replacements: " + str1.replace("P", "").replace("p", "") + " " + str2.replace("P", "").replace("p", ""));
+        System.out.println("The concatenated string with replacements: " + str1.replace("P", "").replace("p", "").concat(" ").concat(str2.replace("P", "").replace("p", "")));
     }
 }
